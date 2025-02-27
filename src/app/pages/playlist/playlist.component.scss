@@ -1,0 +1,31 @@
+.playlist-table {
+  width: 70%;
+  margin: 30px auto;
+
+  tr {
+    cursor: pointer;
+    &:hover {
+      background: #F0F0F0;
+    }
+  }
+
+  .artist-name {
+    color: #318CE7;
+    text-decoration: underline;
+
+    &:hover {
+      color: #7CB9E8;
+    }
+  }
+}
+
+.audio-player {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  audio {
+    width: 70%;
+    margin: 10px auto;
+  }
+}
